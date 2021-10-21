@@ -12,7 +12,7 @@ public class ChatClient {
     }
 
     public void sendMessage(String text) {
-        // Sending message
+        // Sending message asd
         Message message = new Message(text,"My ip", new Date());
         chatFrame.addOutComingMessage(message);
     }
